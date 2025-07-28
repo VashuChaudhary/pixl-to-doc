@@ -1,0 +1,80 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background with rounded corners -->
+  <rect width="512" height="512" fill="white" rx="64" ry="64"/>
+  
+  <!-- PDF File (left side) -->
+  <g transform="translate(80, 156)">
+    <!-- PDF document base -->
+    <rect x="0" y="0" width="120" height="160" fill="#e74c3c" rx="12" ry="12"/>
+    
+    <!-- PDF document fold -->
+    <path d="M 0 0 L 20 0 L 0 20 Z" fill="#c0392b"/>
+    
+    <!-- PDF text lines -->
+    <rect x="16" y="32" width="88" height="8" fill="white" rx="4" ry="4"/>
+    <rect x="16" y="48" width="72" height="8" fill="white" rx="4" ry="4"/>
+    <rect x="16" y="64" width="80" height="8" fill="white" rx="4" ry="4"/>
+    <rect x="16" y="80" width="64" height="8" fill="white" rx="4" ry="4"/>
+    <rect x="16" y="96" width="88" height="8" fill="white" rx="4" ry="4"/>
+    <rect x="16" y="112" width="76" height="8" fill="white" rx="4" ry="4"/>
+    <rect x="16" y="128" width="82" height="8" fill="white" rx="4" ry="4"/>
+    
+    <!-- PDF label -->
+    <text x="60" y="150" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PDF</text>
+  </g>
+  
+  <!-- Image File (right side) -->
+  <g transform="translate(312, 156)">
+    <!-- Image document base -->
+    <rect x="0" y="0" width="120" height="160" fill="#3498db" rx="12" ry="12"/>
+    
+    <!-- Image document fold -->
+    <path d="M 0 0 L 20 0 L 0 20 Z" fill="#2980b9"/>
+    
+    <!-- Image content representation -->
+    <rect x="16" y="32" width="88" height="60" fill="white" rx="4" ry="4"/>
+    
+    <!-- Image pixels/colors -->
+    <rect x="20" y="36" width="16" height="16" fill="#e74c3c" rx="2" ry="2"/>
+    <rect x="40" y="36" width="16" height="16" fill="#3498db" rx="2" ry="2"/>
+    <rect x="60" y="36" width="16" height="16" fill="#f39c12" rx="2" ry="2"/>
+    <rect x="80" y="36" width="16" height="16" fill="#9b59b6" rx="2" ry="2"/>
+    
+    <rect x="20" y="56" width="16" height="16" fill="#2ecc71" rx="2" ry="2"/>
+    <rect x="40" y="56" width="16" height="16" fill="#e67e22" rx="2" ry="2"/>
+    <rect x="60" y="56" width="16" height="16" fill="#1abc9c" rx="2" ry="2"/>
+    <rect x="80" y="56" width="16" height="16" fill="#34495e" rx="2" ry="2"/>
+    
+    <rect x="20" y="76" width="16" height="16" fill="#e91e63" rx="2" ry="2"/>
+    <rect x="40" y="76" width="16" height="16" fill="#3f51b5" rx="2" ry="2"/>
+    <rect x="60" y="76" width="16" height="16" fill="#ff9800" rx="2" ry="2"/>
+    <rect x="80" y="76" width="16" height="16" fill="#795548" rx="2" ry="2"/>
+    
+    <!-- Image label -->
+    <text x="60" y="150" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">IMG</text>
+  </g>
+  
+  <!-- Left arrow (PDF to Image) -->
+  <g transform="translate(220, 236)">
+    <!-- Arrow shaft -->
+    <rect x="0" y="0" width="72" height="8" fill="#34495e" rx="4" ry="4"/>
+    
+    <!-- Arrow head -->
+    <path d="M 72 4 L 88 0 L 88 8 Z" fill="#34495e"/>
+  </g>
+  
+  <!-- Right arrow (Image to PDF) -->
+  <g transform="translate(220, 268)">
+    <!-- Arrow shaft -->
+    <rect x="0" y="0" width="72" height="8" fill="#34495e" rx="4" ry="4"/>
+    
+    <!-- Arrow head -->
+    <path d="M 0 4 L -16 0 L -16 8 Z" fill="#34495e"/>
+  </g>
+  
+  <!-- Conversion arrows indicator -->
+  <g transform="translate(256, 252)">
+    <circle cx="0" cy="0" r="16" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" fill="#34495e" font-family="Arial, sans-serif" font-size="16" font-weight="bold">↔</text>
+  </g>
+</svg> 
