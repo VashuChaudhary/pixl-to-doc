@@ -120,18 +120,6 @@ PdfImg is a modern web application that allows users to seamlessly convert image
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for new features, bug fixes, or improvements.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
-
----
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -144,21 +132,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [pdf-lib](https://pdf-lib.js.org/) or any other libraries used for PDF/image processing
-
----
-
-## Contact
-
-For questions, suggestions, or support, please open an issue or contact the maintainer via [GitHub](https://github.com/VashuChaudhary/pixl-to-doc).
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
